@@ -58,7 +58,7 @@ function checkAns(Idx) {
       setTimeout(levelup, 1000);
     }
   } else {
-    h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press Start key to start`;
+    h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press Start button to Restart the game`;
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(function () {
       document.querySelector("body").style.backgroundColor = "White";
